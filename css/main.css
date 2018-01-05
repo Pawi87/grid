@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-']{
+  float: left;
+  min-height: 5.5em;
+  margin: 0.5%;
+}
+
+.col-1 {
+  background: #FFFF00;
+  width: 7.33%;
+}
+
+.col-2 {
+  background: #AFFF00;
+  width: 15.66%;
+}
+
+.col-3 {
+  background:#1EE2A6;
+  width:24%;
+}
+
+.col-4 {
+  background: #01B6AD;
+  width: 32.3%;
+}
+
+.col-5 {
+  background: #9C42D0;
+  width: 49%;
+}
+
+.col-6 {
+  background: #D126A9;
+  width: 99%;
+}
